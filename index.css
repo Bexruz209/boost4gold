@@ -268,6 +268,72 @@ header {
     color: #EFEFEF;
 }
 
+.gold_smoll {
+    background: #0C1016;
+}
+
+.gold_text {
+    padding-top: 180px;
+}
+
+.gold_h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.gold_p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.gold_smoll_p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.book_smoll {
+    background: #090C11;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.book__smoll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.book_left {
+    display: flex;
+    gap: 150px;
+}
+
+.book_p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #EFEFEF;
+}
+
+.book_right {
+    line-height: 45px;
+}
+
+.boook_p {
+    color: #fff;
+}
 
 
 
@@ -339,5 +405,17 @@ header {
     .play__img {
         width: auto;
         height: auto;
+    }
+
+    .gold_text {
+        padding-top: 50px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .book_smoll {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
     }
 }
